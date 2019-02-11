@@ -5,8 +5,8 @@ elsif array.length == 3
   string = array.join(", ")
   string.insert(14,"and ")
 elsif array.length > 3
-  string = array.join(", ")
-  string.insert(33,"and ")
+  array.prepend " and"
+  array.join(", ")
   else
   string = array.join
 end
