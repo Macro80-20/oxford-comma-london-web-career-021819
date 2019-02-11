@@ -6,7 +6,7 @@ elsif array.length == 3
   string.insert(14,"and ")
 elsif array.length > 3
   string = array.join(", ")
-  string.insert(19,"and ")
+  string.insert(35,"and ")
   else
   string = array.join
 end
