@@ -4,6 +4,9 @@ if array.length == 2
 elsif array.length == 3
   string = array.join(", ")
   string.insert(14,"and ")
+elsif array.length > 3
+  string = array.join(", ")
+  string.insert(19,"and ")
   else
   string = array.join
 end
